@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Metadata for fixing Browser Compability issues-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer's.com</title>
+    <link rel="icon" href="/images/Logo.jpg" ">
+</head>
+
+<!--Font importation-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@
+0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Comfortaa:wght@300;
+400;500;600;700&family=Festive&family=Indie+Flower&family=Josefin+Sa
+ns:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1
+,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200
+;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1
+,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;7
+00&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,70
+0;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+family=Righteous&display=swap" rel="stylesheet">
+
+<style>
+    /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(0, 204, 255);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00b7ff;
+  color: white;
+}
+    .Title_Text{
+        font-size: 40px;
+        font-family: 'Arvo', serif;
+        text-align: center;
+        padding-top: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: rgb(255, 255, 255);
+    }
+
+    .UnderTitle_Text{
+        font-size: 30px;
+        font-family: 'Comfortaa', cursive;
+        text-align: center;
+    }
+
+    .Desc_Title{
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        color: #ffffff;
+        padding-left: 10px;
+    }
+
+    .Desc_Title{
+        background-color:darkblue;
+        overflow:hidden;
+    }
+    /*------------------------------------*/
+    .Job{
+        font-size: 50px;
+        font-family: 'Bebas Neue', cursive;
+        color: #000000;
+        padding-left: 10px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .Job{
+        background-color:cornflowerblue;
+        overflow:hidden;
+    }
+    /*------------------------------------*/
+    .Hobby{
+        font-size: 50px;
+        font-family: 'Bebas Neue', cursive;
+        color: #000000;
+        padding-left: 10px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .Hobby{
+        background-color:cyan;
+        overflow:hidden;
+    }
+
+    .After_Desc{
+        font-size: 30px;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+    }
+    .See_The_Gallery_Button {
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-family: 'Comfortaa', serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    }
+
+    .See_The_Gallery_Button {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #00fff2;
+  
+}
+    .See_The_Gallery_Button:hover {
+  background-color: #00ccff;
+  color: rgb(0, 0, 0);
+  border: 2px solid #003cff;
+}
+    .See_The_Gallery { 
+  height: 150px;
+  position: relative;
+}
+
+    .Ending_Copyright{
+        font-family: 'Arvo', serif;
+    }
+</style>
+<body>
+    
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="/html/gallery.html">Gallery</a>
+        <a href="/html/contact.html">Contact and About </a>
+        
+      </div>
+
+    <!--Header Title text of Photographer's.com-->
+    <div class="container" id="container">
+    <img src="/images/Landscape.jpg" alt="Landscape | Please Reload" style="width:100%">
+    <h1 class="Title_Text" id="Title_Text">Photographer's.com</h1>
+    </div>
+    
+    <!--Text under Header Title-->
+    <h2 class="UnderTitle_Text" id="UnderTitle_Text">Appreciating Photography</h2>
+
+    <div class="Desc_Title">
+    <h3 class="Desc_Title" id="Desc_Title">Photography, is often taken as a</h3>
+    </div>
+
+    <div class="Job">
+    <h4 class="Job" id="Job">Job</h4>
+    </div>
+
+    <div class="Hobby">
+    <h4 class="Hobby" id="Hobby">Hobby</h4>
+    </div>
+
+    <div class="After_Desc" id="After_Desc">
+    <h4 class="After_Desc" id="After_Desc">Photography helps improve our lifestyle since 
+        we often need to get closer to nature, to get the best of nature to photograph. 
+        not just in city life.</h4>
+    </div>
+    
+    <div class="See_The_Gallery" id="See_The_Gallery">
+    <a href="/html/gallery.html">
+    <button class="See_The_Gallery_Button" type="button" >See the Gallery</button>
+    </a>    
+    </div>
+
+    <h5 class="Ending_Copyright">©2021 Anvilator</h5>
+</body>
+</html>

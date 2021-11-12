@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--Metadata for fixing Browser Compability issues-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photographer's.com</title>
+    <link rel="icon" href="/images/Logo.jpg" ">
+</head>
+
+<!--Font importation-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@
+0,400;0,700;1,400;1,700&family=Bebas+Neue&family=Comfortaa:wght@300;
+400;500;600;700&family=Festive&family=Indie+Flower&family=Josefin+Sa
+ns:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1
+,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200
+;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1
+,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300;400;500;600;7
+00&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,70
+0;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&
+family=Righteous&display=swap" rel="stylesheet">
+
+<style>
+       /* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgb(0, 0, 0);
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: 'Comfortaa', cursive;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(0, 204, 255);
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00b7ff;
+  color: white;
+}
+
+.The_Gallery{
+        font-size: 50px;
+        font-family: 'Comfortaa', cursive;  
+        color: #000000;
+        text-align: center;
+        padding-top: 60px;
+        padding-left: 60px;
+        padding-right: 60px;
+        padding-bottom  : 120px;  
+    }
+
+    .The_Gallery{
+        background-color:cornflowerblue;
+        overflow:hidden;
+        border-radius: 50px;
+    }
+
+    .row {
+    display: flex;
+    
+    }
+
+    .column {
+    flex: 33.33%;
+    padding: 5px;
+    
+    } 
+
+    .gallery_images{
+      border: 6px solid darkblue;
+      border-radius: 25px;
+    }
+
+    .Ending_Copyright{
+        font-family: 'Arvo', serif;
+    }
+
+</style>
+
+<body>
+    <div class="topnav">
+        <a href="/html/home.html">Home</a>
+        <a class="active" href="/html/gallery.html">Gallery</a>
+        <a href="/html/contact.html">Contact and About</a>
+    </div>
+
+    <div class="The_Gallery">
+        <h4 class="The_Gallery" id="The_Gallery">The Gallery</h4>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+        <div class="row">
+          <div class="column">
+            <img class="gallery_images" src="/images/pexels-pixabay-206359.jpg" alt="Bridge_Over_Water | Please Reload" width="500px">
+          </div>
+          <div class="column">
+            <img class="gallery_images" src="/images/pexels-pixabay-45853.jpg" alt="Birds | Please Reload" width="500px">
+          </div>
+          <div class="column">
+            <img class="gallery_images" src="/images/pexels-samuel-theo-manat-silitonga-848573.jpg" alt="Man_Sitting_On_Cliff | Please Reload" width="500px">
+          </div>
+        </div>
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+        <h6>Credits are stored in /credits/credits.txt. Please do remove the photos inserted in this sample and put in your own photos. Remove this element before publishing.  </h6>
+        <h5 class="Ending_Copyright">©2021 Anvilator</h5>
+
+
+      </body>
