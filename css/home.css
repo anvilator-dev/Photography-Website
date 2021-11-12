@@ -1,0 +1,133 @@
+    /* Add a black background color to the top navigation */
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+      }
+      
+      /* Style the links inside the navigation bar */
+      .topnav a {
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Comfortaa', cursive;
+      }
+      
+      /* Change the color of links on hover */
+      .topnav a:hover {
+        background-color: rgb(0, 204, 255);
+        color: black;
+      }
+      
+      /* Add a color to the active/current link */
+      .topnav a.active {
+        background-color: #00b7ff;
+        color: white;
+      }
+          .Title_Text{
+              font-size: 40px;
+              font-family: 'Arvo', serif;
+              text-align: center;
+              padding-top: 60px;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              color: rgb(255, 255, 255);
+          }
+      
+          .UnderTitle_Text{
+              font-size: 30px;
+              font-family: 'Comfortaa', cursive;
+              text-align: center;
+          }
+      
+          .Desc_Title{
+              font-size: 30px;
+              font-family: 'Quicksand', sans-serif;
+              color: #ffffff;
+              padding-left: 10px;
+          }
+      
+          .Desc_Title{
+              background-color:darkblue;
+              overflow:hidden;
+          }
+          /*------------------------------------*/
+          .Job{
+              font-size: 50px;
+              font-family: 'Bebas Neue', cursive;
+              color: #000000;
+              padding-left: 10px;
+              letter-spacing: 2px;
+              text-align: center;
+          }
+      
+          .Job{
+              background-color:cornflowerblue;
+              overflow:hidden;
+          }
+          /*------------------------------------*/
+          .Hobby{
+              font-size: 50px;
+              font-family: 'Bebas Neue', cursive;
+              color: #000000;
+              padding-left: 10px;
+              letter-spacing: 2px;
+              text-align: center;
+          }
+      
+          .Hobby{
+              background-color:cyan;
+              overflow:hidden;
+          }
+      
+          .After_Desc{
+              font-size: 30px;
+              font-family: 'Quicksand', sans-serif;
+              text-align: center;
+          }
+          .See_The_Gallery_Button {
+          border: none;
+          color: rgb(0, 0, 0);
+          padding: 16px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 24px;
+          margin: 4px 2px;
+          transition-duration: 0.4s;
+          cursor: pointer;
+          font-family: 'Comfortaa', serif;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          }
+      
+          .See_The_Gallery_Button {
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid #00fff2;
+        
+      }
+          .See_The_Gallery_Button:hover {
+        background-color: #00ccff;
+        color: rgb(0, 0, 0);
+        border: 2px solid #003cff;
+      }
+          .See_The_Gallery { 
+        height: 150px;
+        position: relative;
+      }
+      
+          .Ending_Copyright{
+              font-family: 'Arvo', serif;
+          }

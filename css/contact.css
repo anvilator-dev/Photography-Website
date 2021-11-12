@@ -1,0 +1,94 @@
+    /* Add a black background color to the top navigation */
+    .topnav {
+        background-color: rgb(0, 0, 0);
+        overflow: hidden;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        left: 0;
+        }
+        
+        /* Style the links inside the navigation bar */
+        .topnav a {
+        float: left;
+        color: #ffffff;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        font-family: 'Comfortaa', cursive;
+        }
+        
+        /* Change the color of links on hover */
+        .topnav a:hover {
+        background-color: rgb(0, 204, 255);
+        color: black;
+        }
+        
+        /* Add a color to the active/current link */
+        .topnav a.active {
+        background-color: #00b7ff;
+        color: white;
+        }
+        
+        .Header_Contact{
+            padding-top: 70px;
+            font-family: 'Arvo', serif;
+            font-size: 60px;
+            text-align: center;
+        }
+        
+        .Header_Contact{
+            background-color:cornflowerblue;
+            overflow:hidden;
+            border-radius: 40px;
+        }
+        
+        .Photographer_Name_Field{
+            padding-top: 70px;
+            font-family: 'Arvo', serif;
+            font-size: 40px;
+            text-align: center;
+        }
+        
+        
+        .Photographer_Desc{
+            padding-top: 40px;
+            font-family: 'Comfortaa', cursive;  
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .Contact_Details_1{
+            padding-top: 30px;
+            font-family: 'Josefin Sans', sans-serif; 
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .Contact_Details_1{
+            background-color:aqua;
+            overflow:hidden;
+        }
+        
+        .Contact_Details_2{
+            padding-top: 30px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
+        
+        .Contact_Details_2{
+            background-color: aquamarine;
+            overflow:hidden;
+        }
+        .Contact_Details_3{
+            padding-top: 30px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
+        .Contact_Details_3{
+            background-color:dodgerblue;
+            overflow:hidden;
+        }
